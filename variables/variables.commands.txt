@@ -1,0 +1,34 @@
+1. STOCK=AAPL
+2. echo $STOCK
+3. STOCK=AAPL_US
+4. PRICE=290.84
+5. echo "The price of $STOCK is $PRICE"
+6. WHOAMI=$(whoami)
+7. SERVERTYPE=$(uname)
+8. echo $SERVERTYPE
+9. CMD="uname -i"
+10. echo $CMD
+11. eval $CMD
+12. cd ~
+13. mkdir scripts
+14. echo $PATH
+15. PATH=$PATH:/home/ec2-user/scripts
+16. echo $PATH
+18. mkdir Payment1
+19. cd Payment1, mkdir logs, configuration, scripts
+20. touch scripts/start.sh
+21. touch configuration/instance.properties
+22. chmod 744 configuration/instance.properties 
+23. chmod 771 scripts/start.sh 
+24. man cat > ~/cat.output
+25. chmod 474 ~/cat.output 
+26. cd 
+27. pwd
+28. rm -r Payment1/
+29. rm -i cat.output
+30. mkdir temp
+31. MYTEMP="/home/ec2-user/temp"
+32. echo $MYTEMP
+33. unset MYTEMP
+34. rm -r temp/
+
